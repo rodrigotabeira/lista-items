@@ -4,8 +4,8 @@ const contenedor = document.getElementById('contenedor');
 
 // Función para cargar la lista desde el almacenamiento local al cargar la página
 function cargarLista() {
-    const listaGuardada = localStorage.getItem('lista');
-    contenedor.innerHTML = listaGuardada;
+    const listaCargar= localStorage.getItem('lista');
+    contenedor.innerHTML = listaCargar;
   }
 
   // Función para agregar un nuevo ítem a la lista
